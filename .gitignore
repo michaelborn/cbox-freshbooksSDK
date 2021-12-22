@@ -4,6 +4,7 @@ settings.xml
 
 # Tokens
 config/apitoken.cfm
+.env
 
 # Logs
 logs/*.log

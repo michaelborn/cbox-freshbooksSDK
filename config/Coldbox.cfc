@@ -77,8 +77,8 @@ component{
 			cbfreshbooks = {
 				//authentication_credentials = getAPITokenStruct(),
 				authentication_credentials = {
-					clientID = "",
-					clientSecret = ""
+					clientID = getSystemSetting( "FRESKBOOKS_CLIENT_ID", ""),
+					clientSecret = getSystemSetting( "FRESKBOOKS_CLIENT_SECRET", "")
 				},
 				redirectURI = "https://freshbooks.local/index.cfm/Activation/authenticate"
 			}
